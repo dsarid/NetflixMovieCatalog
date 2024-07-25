@@ -19,6 +19,7 @@ def home():
     return "Hi! This app is an API, there is no UI ;-)"
 
 
+
 @app.route('/discover')
 def get_discover():
     """
